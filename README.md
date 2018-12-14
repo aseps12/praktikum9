@@ -1,5 +1,6 @@
 # praktikum9
 Latihan1#Menentukan nilai maximal&minimal menggunkan array
+```
 1. Alur algoritmanya
 	-Mendeklarasikan int nilai sebagai variabel array
 	-mendeklarasikan int a sebagai nilai input
@@ -171,8 +172,8 @@ int main()
 ![img](https://raw.githubusercontent.com/aseps12/praktikum9/master/hasil2.png)
 
 Latihan3#Perkalian Matriks
-1.Alur Algoritmanya
 ```
+1.Alur Algoritmanya
 	-Mendeklarasikan int a1,b1,temp sebagai variabel untuk mengambil baris dan kolom
 	-Mendeklarasikan char pil sebagai variabel untuk membuat pilihan mengulang atau tidak
 	-mendeklarasikan ulang sebagai pilihan ulang
@@ -274,11 +275,11 @@ else
 }
 ```
 3.Berikut Hasilnya
-![img]()
+![img](https://raw.githubusercontent.com/aseps12/praktikum9/master/hasil3.png)
 
 Latihan4#Trasnpose Matriks
-1.Alur Algoritmanya
 ```
+1.Alur Algoritmanya
 	-Mendeklarasikan int A sebagi variabel array
 	-Mendeklarasikan int a,b,baris,kolo sebagai variabel inputan
 	-mendeklrasikan cahr pil untuk pilihan mengulang
