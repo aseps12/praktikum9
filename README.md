@@ -33,7 +33,22 @@ for(a=2;a<=5;a++)
 ```
 2.Berikut kode lengkapnya
 ```c++
-for(a=2;a<=5;a++)
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int nilai[5],a,min,max;
+    for (a=1;a<=5;a++)
+        {
+        cout<< "Masukan nilai ke-" << a <<": ";
+        cin>> nilai[a];
+        }
+
+    min=nilai[1];
+    max=nilai[1];
+    for(a=2;a<=5;a++)
     {
         if (nilai[a]<min)
         {
@@ -44,8 +59,15 @@ for(a=2;a<=5;a++)
             max=nilai[a];
         }
     }
+    cout<< "Nilai minimum adalah : "<< min<<endl;
+    cout<< "Nilai maximum adalah : "<< max<<endl;
+
+    return 0;
+}
 ```
+
 3.Berikut flowchartnya
+
 ![img](https://raw.githubusercontent.com/aseps12/praktikum9/master/flow1.png)
 
 4.Berikut hasilnya
